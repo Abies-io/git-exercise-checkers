@@ -1,0 +1,7 @@
+if ! git config get user.name ; then
+    exit 1
+fi
+
+if ! git config get user.email ; then
+    exit 2
+fi
